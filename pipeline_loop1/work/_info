@@ -1,0 +1,340 @@
+m255
+K3
+13
+cModel Technology
+dC:\Users\zhaochuhan\Downloads\pipeline_loop
+valu
+V6BnTmmiIOFH:a69NXaVKH0
+r1
+31
+IOkmK998J8a6>7NXLfYS2l2
+Z0 dC:\Users\zhaochuhan\Downloads\pipeline_loop1
+w1556441004
+8C:/Users/zhaochuhan/Downloads/pipeline_loop1/EXE.v
+FC:/Users/zhaochuhan/Downloads/pipeline_loop1/EXE.v
+L0 2
+Z1 OE;L;10.1a;51
+Z2 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!i10b 1
+!s85 0
+!s100 YSjJ4cB]hiG^QWmO8XjoU1
+!s108 1557203483.473000
+!s107 ctrl_encode_def.v|C:/Users/zhaochuhan/Downloads/pipeline_loop1/EXE.v|
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/zhaochuhan/Downloads/pipeline_loop1/EXE.v|
+vctrl
+V^j>FcT`bkd;dn8oL1z>Ao0
+r1
+31
+IdkHQ^nY]<jR_e4kiiTNd92
+Z3 dC:\Users\zhaochuhan\Downloads\pipeline_loop1
+Z4 w1556422528
+Z5 8C:/Users/zhaochuhan/Downloads/pipeline_loop1/ctrl.v
+Z6 FC:/Users/zhaochuhan/Downloads/pipeline_loop1/ctrl.v
+L0 3
+R1
+Z7 !s108 1557203483.114000
+Z8 !s107 instruction_def.v|ctrl_encode_def.v|C:/Users/zhaochuhan/Downloads/pipeline_loop1/ctrl.v|
+Z9 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/zhaochuhan/Downloads/pipeline_loop1/ctrl.v|
+R2
+!i10b 1
+!s85 0
+!s100 AY8KF;[OkJGYMjI;=V0d>0
+vdm_4k
+V?W=ND:N6n66H<d`P8fhX81
+r1
+31
+IWzal?`YbodOGfZQAJ=g3c3
+R3
+Z10 w1556442750
+Z11 8C:/Users/zhaochuhan/Downloads/pipeline_loop1/MEM.v
+Z12 FC:/Users/zhaochuhan/Downloads/pipeline_loop1/MEM.v
+L0 1
+R1
+Z13 !s108 1557203483.989000
+Z14 !s107 ctrl_encode_def.v|C:/Users/zhaochuhan/Downloads/pipeline_loop1/MEM.v|
+Z15 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/zhaochuhan/Downloads/pipeline_loop1/MEM.v|
+R2
+!i10b 1
+!s85 0
+!s100 z<>dBVVclfAg]F`eKSeOn3
+vEXMEM
+VnE71ZiVM@BLI:T:7<Dhn:1
+r1
+31
+I]l:MkRAIFEkRTO4n@:M:E2
+R3
+Z16 w1547889282
+Z17 8C:/Users/zhaochuhan/Downloads/pipeline_loop1/PipeRegist.v
+Z18 FC:/Users/zhaochuhan/Downloads/pipeline_loop1/PipeRegist.v
+L0 74
+R1
+Z19 !s108 1557203484.255000
+Z20 !s107 ctrl_encode_def.v|C:/Users/zhaochuhan/Downloads/pipeline_loop1/PipeRegist.v|
+Z21 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/zhaochuhan/Downloads/pipeline_loop1/PipeRegist.v|
+R2
+n@e@x@m@e@m
+!i10b 1
+!s85 0
+!s100 biiT_@Efeh0W[dTLJn0Fc0
+vEXT
+V[:AjoYGhnO2mW3SNOJA450
+r1
+31
+IZ6en=I@Cib29JK=jh[WUG0
+R3
+Z22 w1556386796
+Z23 8C:/Users/zhaochuhan/Downloads/pipeline_loop1/ID.v
+Z24 FC:/Users/zhaochuhan/Downloads/pipeline_loop1/ID.v
+L0 73
+R1
+Z25 !s108 1557203483.583000
+Z26 !s107 ctrl_encode_def.v|instruction_def.v|C:/Users/zhaochuhan/Downloads/pipeline_loop1/ID.v|
+Z27 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/zhaochuhan/Downloads/pipeline_loop1/ID.v|
+R2
+n@e@x@t
+!i10b 1
+!s85 0
+!s100 LhhVedP7nmoX_Q?8BboTD3
+vfctrl
+VmHfJkffK9;MIm=MNmdM9j0
+r1
+31
+I97kz?]egETN=M@5B[78XR0
+R3
+R4
+R5
+R6
+L0 329
+R1
+R7
+R8
+R9
+R2
+!i10b 1
+!s85 0
+!s100 z]f63J[QDTbNhiIK[zXCO3
+vIDEX
+V;HBIF^3LWOE>d^35`3IGN1
+r1
+31
+I;3MfVmmUUjJm4<okoUCkP2
+R3
+R16
+R17
+R18
+L0 26
+R1
+R19
+R20
+R21
+R2
+n@i@d@e@x
+!i10b 1
+!s85 0
+!s100 <@X:nR5Q6ML1RLC^Zg2oz0
+vIFID
+V89l1^BXRK;4ciJIDWeL3d0
+r1
+31
+IaoLCkFJbU8TUcHkdIAzV]3
+R3
+R16
+R17
+R18
+L0 3
+R1
+R19
+R20
+R21
+R2
+n@i@f@i@d
+!i10b 1
+!s85 0
+!s100 3YG_ghc0KeWnV]hA9ZS451
+vim_4k
+VzL;I]YH1KloM;B=<eJkj_0
+r1
+31
+I^e6Df5XgN<0XWTg1`:EPa3
+R3
+Z28 w1556441883
+Z29 8C:/Users/zhaochuhan/Downloads/pipeline_loop1/IF.v
+Z30 FC:/Users/zhaochuhan/Downloads/pipeline_loop1/IF.v
+L0 74
+R1
+Z31 !s108 1557203483.755000
+Z32 !s107 ctrl_encode_def.v|C:/Users/zhaochuhan/Downloads/pipeline_loop1/IF.v|
+Z33 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/zhaochuhan/Downloads/pipeline_loop1/IF.v|
+R2
+!i10b 1
+!s85 0
+!s100 GnOK=[ha1ok7^gV@7Ro=A1
+vIR
+VdoiokPZdC@Pj=oAcaieao3
+r1
+31
+IGfIR=8PdP6gMOdn4S;36j1
+R3
+R28
+R29
+R30
+L0 95
+R1
+R31
+R32
+R33
+R2
+n@i@r
+!i10b 1
+!s85 0
+!s100 JCU<fAgKW9i:PiU9Xbn`l2
+vMemExtender
+V6>CJh2A]J`1Y0cfZjMUa92
+r1
+31
+I]FBHi0mAI0m@:loEV4GW51
+R3
+R10
+R11
+R12
+L0 37
+R1
+R13
+R14
+R15
+R2
+n@mem@extender
+!i10b 1
+!s85 0
+!s100 G8HQT;P;U]TTfdlkR>KH03
+vMEMWB
+V=ic=^X7oC;ndfdQ<C60GO1
+r1
+31
+IJ5dLGP^OQI>:Jz;GZ6@6F1
+R3
+R16
+R17
+R18
+L0 116
+R1
+R19
+R20
+R21
+R2
+n@m@e@m@w@b
+!i10b 1
+!s85 0
+!s100 aTW1hCo2C2=5^JSYb5:En2
+vmips
+V1IZf9]K5DLE=]OQWF=ZSV1
+r1
+31
+IO5i97`Ng4P]WeAkji0VG[3
+R3
+Z34 w1553325966
+Z35 8C:/Users/zhaochuhan/Downloads/pipeline_loop1/PipelindCPU.v
+Z36 FC:/Users/zhaochuhan/Downloads/pipeline_loop1/PipelindCPU.v
+L0 61
+R1
+Z37 !s108 1557203484.130000
+Z38 !s107 C:/Users/zhaochuhan/Downloads/pipeline_loop1/PipelindCPU.v|
+Z39 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/zhaochuhan/Downloads/pipeline_loop1/PipelindCPU.v|
+R2
+!i10b 1
+!s85 0
+!s100 T;a`D5=M1]hFP25ie]XBB0
+vmips_tb
+VHfL@J;=TiSmbe>@j83EoJ0
+r1
+31
+Ii6^j`FLcW^NQ1=>MWWe@i1
+R3
+R34
+R35
+R36
+L0 3
+R1
+R37
+R38
+R39
+R2
+!i10b 1
+!s85 0
+!s100 H32OP?IHHz7J[dz9ohP?S0
+vNPC
+VJLH36[FlPSPZQ^MWHJz=C3
+r1
+31
+I6YND_cN_dd8ATClacQA`_2
+R3
+R28
+R29
+R30
+L0 24
+R1
+R31
+R32
+R33
+R2
+n@n@p@c
+!i10b 1
+!s85 0
+!s100 NCah`DAf6bdZ@lV?4GQ;=3
+vPC
+VkPZa1njZHJf6e7^nn2_?01
+r1
+31
+IQj^;7h2GM1oT^o8G5NR?H3
+R3
+R28
+R29
+R30
+L0 2
+R1
+R31
+R32
+R33
+R2
+n@p@c
+!i10b 1
+!s85 0
+!s100 c1OFgk]MR[kWfmz_ViE4l3
+vRegisterFile
+Vl>EPnh1jJcQU[jBz?<lh^1
+r1
+31
+Id0AoTV_3OBz`?KJ^Tz@Bn0
+R3
+R22
+R23
+R24
+L0 4
+R1
+R25
+R26
+R27
+R2
+n@register@file
+!i10b 1
+!s85 0
+!s100 4^[8=[n[5eaCLL[Q`Y5;i0
+vRegWrData
+!i10b 1
+VcO0FkLTFlXVeNk4:JGz0M0
+r1
+!s85 0
+31
+I6FTDdcT7mUBlR5?JLK@M?0
+R3
+w1552661756
+8C:/Users/zhaochuhan/Downloads/pipeline_loop1/WB.v
+FC:/Users/zhaochuhan/Downloads/pipeline_loop1/WB.v
+L0 3
+R1
+R2
+n@reg@wr@data
+!s100 c_RjeV4S5BGI]a;WG0;7e1
+!s108 1557203484.458000
+!s107 ctrl_encode_def.v|C:/Users/zhaochuhan/Downloads/pipeline_loop1/WB.v|
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/zhaochuhan/Downloads/pipeline_loop1/WB.v|

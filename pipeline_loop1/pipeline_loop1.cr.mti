@@ -1,0 +1,82 @@
+C:/Users/zhaochuhan/Downloads/pipeline_loop1/EXE.v {1 {vlog -work work -vopt C:/Users/zhaochuhan/Downloads/pipeline_loop1/EXE.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} C:/Users/zhaochuhan/Downloads/pipeline_loop1/IF.v {1 {vlog -work work -vopt C:/Users/zhaochuhan/Downloads/pipeline_loop1/IF.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module PC
+-- Compiling module NPC
+-- Compiling module im_4k
+-- Compiling module IR
+
+Top level modules:
+	PC
+	NPC
+	im_4k
+	IR
+
+} {} {}} C:/Users/zhaochuhan/Downloads/pipeline_loop1/MEM.v {1 {vlog -work work -vopt C:/Users/zhaochuhan/Downloads/pipeline_loop1/MEM.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module dm_4k
+-- Compiling module MemExtender
+
+Top level modules:
+	dm_4k
+	MemExtender
+
+} {} {}} C:/Users/zhaochuhan/Downloads/pipeline_loop1/ctrl_encode_def.v {1 {vlog -work work -vopt C:/Users/zhaochuhan/Downloads/pipeline_loop1/ctrl_encode_def.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+
+} {} {}} C:/Users/zhaochuhan/Downloads/pipeline_loop1/instruction_def.v {1 {vlog -work work -vopt C:/Users/zhaochuhan/Downloads/pipeline_loop1/instruction_def.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+
+} {} {}} C:/Users/zhaochuhan/Downloads/pipeline_loop1/PipeRegist.v {1 {vlog -work work -vopt C:/Users/zhaochuhan/Downloads/pipeline_loop1/PipeRegist.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module IFID
+-- Compiling module IDEX
+-- Compiling module EXMEM
+-- Compiling module MEMWB
+
+Top level modules:
+	IFID
+	IDEX
+	EXMEM
+	MEMWB
+
+} {} {}} C:/Users/zhaochuhan/Downloads/pipeline_loop1/ctrl.v {1 {vlog -work work -vopt C:/Users/zhaochuhan/Downloads/pipeline_loop1/ctrl.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module ctrl
+-- Compiling module fctrl
+
+Top level modules:
+	ctrl
+	fctrl
+
+} {} {}} C:/Users/zhaochuhan/Downloads/pipeline_loop1/ID.v {1 {vlog -work work -vopt C:/Users/zhaochuhan/Downloads/pipeline_loop1/ID.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module RegisterFile
+-- Compiling module EXT
+
+Top level modules:
+	RegisterFile
+	EXT
+
+} {} {}} C:/Users/zhaochuhan/Downloads/pipeline_loop1/PipelindCPU.v {1 {vlog -work work -vopt C:/Users/zhaochuhan/Downloads/pipeline_loop1/PipelindCPU.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module mips_tb
+-- Compiling module mips
+
+Top level modules:
+	mips_tb
+
+} {} {}} C:/Users/zhaochuhan/Downloads/pipeline_loop1/WB.v {1 {vlog -work work -vopt C:/Users/zhaochuhan/Downloads/pipeline_loop1/WB.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module RegWrData
+
+Top level modules:
+	RegWrData
+
+} {} {}}

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1556449750">
+  <File Type="RDS-PROPCONSTRS" Name="IP2SOC_Top_drc_synth.rpt"/>
+  <File Type="PA-TCL" Name="IP2SOC_Top.tcl"/>
+  <File Type="RDS-RDS" Name="IP2SOC_Top.vds"/>
+  <File Type="RDS-UTIL" Name="IP2SOC_Top_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="IP2SOC_Top_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="IP2SOC_Top.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="IP2SOC_Top_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="IP2SOC_Top_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/zch/signal/EXT.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/Administrator/Desktop/zch/signal/EXT.v"/>
+        <Attr Name="ImportTime" Val="1553411732"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/zch/FPGA/MIO_BUS.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/Administrator/Desktop/zch/FPGA/MIO_BUS.v"/>
+        <Attr Name="ImportTime" Val="1553769112"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/zch/FPGA/Multi_CH32.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/Administrator/Desktop/zch/FPGA/Multi_CH32.v"/>
+        <Attr Name="ImportTime" Val="1553769112"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/zch/signal/ctrl_encode_def.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/Administrator/Desktop/zch/signal/ctrl_encode_def.v"/>
+        <Attr Name="ImportTime" Val="1553411732"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/zch/signal/NPC.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/Administrator/Desktop/zch/signal/NPC.v"/>
+        <Attr Name="ImportTime" Val="1553411732"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/zch/signal/PC.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/Administrator/Desktop/zch/signal/PC.v"/>
+        <Attr Name="ImportTime" Val="1553411732"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/zch/signal/RF.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/Administrator/Desktop/zch/signal/RF.v"/>
+        <Attr Name="ImportTime" Val="1553411732"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/zch/signal/alu.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/Administrator/Desktop/zch/signal/alu.v"/>
+        <Attr Name="ImportTime" Val="1553411732"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/zch/FPGA/clk_div.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/Administrator/Desktop/zch/FPGA/clk_div.v"/>
+        <Attr Name="ImportTime" Val="1553769112"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/zch/signal/ctrl.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/Administrator/Desktop/zch/signal/ctrl.v"/>
+        <Attr Name="ImportTime" Val="1553411732"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/zch/signal/dm.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/Administrator/Desktop/zch/signal/dm.v"/>
+        <Attr Name="ImportTime" Val="1553411732"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/zch/signal/mux.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/Administrator/Desktop/zch/signal/mux.v"/>
+        <Attr Name="ImportTime" Val="1553411732"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/zch/signal/sccpu.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/Administrator/Desktop/zch/signal/sccpu.v"/>
+        <Attr Name="ImportTime" Val="1553411732"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/zch/FPGA/seg7x16.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/Administrator/Desktop/zch/FPGA/seg7x16.v"/>
+        <Attr Name="ImportTime" Val="1553769112"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/zch/FPGA/SCPU_Top.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/Administrator/Desktop/zch/FPGA/SCPU_Top.v"/>
+        <Attr Name="ImportTime" Val="1553769112"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/zch/signal/im.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="C:/Users/Administrator/Desktop/zch/signal/im.v"/>
+        <Attr Name="ImportTime" Val="1553411732"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/zch/signal/sccomp.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="C:/Users/Administrator/Desktop/zch/signal/sccomp.v"/>
+        <Attr Name="ImportTime" Val="1553411732"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/zch/signal/sccomp_tb.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="C:/Users/Administrator/Desktop/zch/signal/sccomp_tb.v"/>
+        <Attr Name="ImportTime" Val="1556449099"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/zch/FPGA/dm.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="C:/Users/Administrator/Desktop/zch/FPGA/dm.v"/>
+        <Attr Name="ImportTime" Val="1553769112"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="c:/Users/Administrator/Desktop/zch/4.28.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="IP2SOC_Top"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/zch/Nexys4DDR_CPU.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/Administrator/Desktop/zch/Nexys4DDR_CPU.xdc"/>
+        <Attr Name="ImportTime" Val="1553769112"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="imem"/>
+</GenRun>

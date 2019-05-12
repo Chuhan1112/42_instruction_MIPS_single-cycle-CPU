@@ -1,0 +1,84 @@
+# Reading C:/modeltech_10.1a/tcl/vsim/pref.tcl 
+# //  ModelSim SE 10.1a Feb 22 2012 
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# OpenFile C:/Users/zhaochuhan/Downloads/singal_loop/singal_loop.mpf 
+# Loading project singal_loop
+# Compile of alu.v was successful.
+# Compile of ctrl.v was successful.
+# Compile of ctrl_encode_def.v was successful.
+# Compile of dm.v was successful.
+# Compile of EXT.v was successful.
+# Compile of im.v was successful.
+# Compile of mux.v was successful.
+# Compile of NPC.v was successful.
+# Compile of PC.v was successful.
+# Compile of RF.v was successful.
+# Compile of sccomp.v was successful.
+# Compile of sccomp_tb.v was successful.
+# Compile of sccpu.v was successful.
+# 13 compiles, 0 failed with no errors. 
+vsim -novopt work.sccomp_tb
+# vsim -novopt work.sccomp_tb 
+# Refreshing C:\Users\zhaochuhan\Downloads\singal_loop\work.sccomp_tb
+# Loading work.sccomp_tb
+# Refreshing C:\Users\zhaochuhan\Downloads\singal_loop\work.sccomp
+# Loading work.sccomp
+# Refreshing C:\Users\zhaochuhan\Downloads\singal_loop\work.sccpu
+# Loading work.sccpu
+# Refreshing C:\Users\zhaochuhan\Downloads\singal_loop\work.ctrl
+# Loading work.ctrl
+# Refreshing C:\Users\zhaochuhan\Downloads\singal_loop\work.PC
+# Loading work.PC
+# Refreshing C:\Users\zhaochuhan\Downloads\singal_loop\work.NPC
+# Loading work.NPC
+# Refreshing C:\Users\zhaochuhan\Downloads\singal_loop\work.RF
+# Loading work.RF
+# Refreshing C:\Users\zhaochuhan\Downloads\singal_loop\work.mux4
+# Loading work.mux4
+# Refreshing C:\Users\zhaochuhan\Downloads\singal_loop\work.EXT
+# Loading work.EXT
+# Refreshing C:\Users\zhaochuhan\Downloads\singal_loop\work.mux2
+# Loading work.mux2
+# Refreshing C:\Users\zhaochuhan\Downloads\singal_loop\work.alu
+# Loading work.alu
+# Refreshing C:\Users\zhaochuhan\Downloads\singal_loop\work.dm
+# Loading work.dm
+# Refreshing C:\Users\zhaochuhan\Downloads\singal_loop\work.im
+# Loading work.im
+# ** Warning: (vsim-3015) C:/Users/zhaochuhan/Downloads/singal_loop/sccpu.v(102): [PCDPC] - Port size (5 or 5) does not match connection size (1) for port 'Shamt'. The port definition is at: C:/Users/zhaochuhan/Downloads/singal_loop/alu.v(3).
+# 
+#         Region: /sccomp_tb/U_SCCOMP/U_SCPU/U_ALU
+add wave -position insertpoint sim:/sccomp_tb/U_SCCOMP/*
+run
+# pc: 00000000
+# instr: 34021234
+# r[ 2] = 0x00001234,
+run
+# pc: 00000004
+# instr: 3c039876
+# r[ 3] = 0x98760000,
+run
+# pc: 00000008
+# instr: 20443456
+# r[ 4] = 0x0000468a,
+run
+# pc: 0000000c
+# instr: 2465fc00
+# r[ 5] = 0x9875fc00,
+run
+# pc: 00000010
+# instr: 3846abcd
+# r[ 6] = 0x0000b9f9,
+run
+# pc: 00000014
+# instr: 2c850034
+run
+# pc: 00000018
+# instr: 2c45ffff
